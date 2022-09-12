@@ -3,5 +3,10 @@ public class Main {
         System.out.println( "hi git");
     // do it from Remote origin
         // add from Local Main
+        System.out.println(foo());
+
+    }
+    static  int foo(){
+        return 6;
     }
 }
