@@ -6,5 +6,6 @@ public class Main {
         // I WANT MERGE FROM 3_MAIN TO MAIN
         // new commit
         // and one more
+        // i want merge 3_main and main
     }
 }
