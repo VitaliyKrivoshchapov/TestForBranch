@@ -3,6 +3,6 @@ public class Main {
         System.out.println( "hi git");
     //add comment
         //add new commet and merge
-        //
+        // In main you change text
     }
 }
