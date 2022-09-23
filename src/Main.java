@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println( "hi git");
-        //add comment
-        //add new commit and merge
-        // In main you change text
+
         // change in main
         // someboedy change my project
         //add comment
