@@ -6,35 +6,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-        setStatProfileByLimitToSession();
         System.out.println("hi git");
         //slkdfngtwoigsmnrtlwoijfgh[;
     }
 
 
-    private  static Map<Integer, String> setStatProfileByLimitToSession() {
-        Map<Integer, String> statProfileByLimit = new HashMap<>();
-        //statProfileByLimit.put(0, "default");
-        String profile = null;
-        if (rsi != null) {
-            String stat = "stats=";
-            for (String s : rsi.split(" ")) {
-                if (s.contains(stat)) {
-                    profile = s.substring(s.indexOf("=") + 1);
-                }
-            }
-            if (profile != null) {
-                String[] split = profile.split("&");
-                for (String s : split) {
-                    if (s.contains(":")) {
-                        String[] splited = s.split(":");
-                        statProfileByLimit.put(Integer.parseInt(splited[0]), splited[1]);
-                    } else {
-                        statProfileByLimit.put(0, s);
-                    }
-                }
-            }
-        }
-        return statProfileByLimit;
-    }
 }
