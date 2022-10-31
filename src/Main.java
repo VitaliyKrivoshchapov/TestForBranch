@@ -27,8 +27,6 @@ public class Main {
             System.out.println("sdfg");
         }
 
-        return null;
-    }
 
     private  static Map<Integer, String> setStatProfileByLimitToSession() {
         Map<Integer, String> statProfileByLimit = new HashMap<>();
@@ -55,6 +53,4 @@ public class Main {
         }
         return statProfileByLimit;
     }
-
-
 }
