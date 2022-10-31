@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
         setStatProfileByLimitToSession();
         System.out.println("hi git");
+        //slkdfngtwoigsmnrtlwoijfgh[;
 // from git
         System.out.println( "hi git");
 // change all
@@ -21,11 +22,6 @@ public class Main {
 
 // кто-то работает в main
     }
-
-    private static Map<String, String> parsAri(String rsi) {
-        if (rsi != null) {
-            System.out.println("sdfg");
-        }
 
 
     private  static Map<Integer, String> setStatProfileByLimitToSession() {
