@@ -8,20 +8,8 @@ public class Main {
     public static void main(String[] args) {
         setStatProfileByLimitToSession();
         System.out.println("hi git");
-// from git
-// change all
-    // new  change
-        // do somthing in new Branch
-
     }
 
-    private static Map<String, String> parsAri(String rsi) {
-        if (rsi != null) {
-            System.out.println("sdfg");
-        }
-
-        return null;
-    }
 
     private  static Map<Integer, String> setStatProfileByLimitToSession() {
         Map<Integer, String> statProfileByLimit = new HashMap<>();
@@ -48,6 +36,4 @@ public class Main {
         }
         return statProfileByLimit;
     }
-
-
 }
