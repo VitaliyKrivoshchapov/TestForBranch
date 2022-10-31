@@ -6,6 +6,9 @@ public class Main {
 
 
     public static void main(String[] args) {
+        setStatProfileByLimitToSession();
+        System.out.println("hi git");
+// from git
         System.out.println( "hi git");
 // change all
     // new  change
