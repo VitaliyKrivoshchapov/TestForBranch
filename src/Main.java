@@ -6,7 +6,6 @@ public class Main {
 
 
     public static void main(String[] args) {
-        //String rsi = "ac=223-419895 softplay=true";
         setStatProfileByLimitToSession();
         System.out.println("hi git");
 // from git
