@@ -11,6 +11,7 @@ public class Main {
         //adfasdf
         //asdfasdf
 
+// кто-то работает в main
     }
 
 
